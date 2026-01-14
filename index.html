@@ -1,0 +1,2119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JayEben Cable Hub | Ghana's Trusted Electrical Cable Supplier</title>
+    <meta name="description" content="Leading supplier of premium electrical cables in Ghana. Armoured, Flexible, Copper, Aluminium cables and more. Located at Accra Post Office.">
+<meta name="keywords" content="electrical cables Ghana, armoured cables, copper cables, JayEben Cable Hub, Accra electrical supplier">
+<meta property="og:title" content="JayEben Cable Hub | Ghana's Trusted Electrical Cable Supplier">
+<meta property="og:description" content="We supply premium electrical cables — Armoured, Flexible, Copper, Aluminium & more. Located at Accra Post Office.">
+<meta property="og:image" content="images/6008122273569032525.jpg">
+<meta property="og:url" content="https://your-website-link.com">
+<meta name="twitter:card" content="summary_large_image">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #D4A574;
+            --secondary-color: #2C2416;
+            --accent-color: #E8C4A0;
+            --text-dark: #3A3A3A;
+            --text-light: #6B6B6B;
+            --bg-light: #F5F0E8;
+            --white: #FFFFFF;
+            --success: #8B7355;
+            --warm-dark: #4A3F2E;
+            --warm-light: #D9C7B0;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            color: var(--text-dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header & Navigation */
+        header {
+            background: linear-gradient(135deg, var(--secondary-color) 0%, var(--warm-dark) 100%);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+        }
+
+        header.scrolled {
+            padding: 10px 0;
+            background: var(--secondary-color);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo-icon {
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            width: 50px;
+            height: 50px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .logo-text h2 {
+            color: var(--white);
+            font-size: 22px;
+            margin-bottom: 2px;
+        }
+
+        .logo-text p {
+            color: var(--accent-color);
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--white);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+            font-size: 15px;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent-color);
+        }
+
+        .nav-cta {
+            background: var(--primary-color);
+            padding: 10px 25px;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+
+        .nav-cta:hover {
+            transform: translateY(-2px);
+            background: var(--accent-color);
+            color: var(--secondary-color) !important;
+        }
+
+        .mobile-menu-toggle {
+            display: none;
+            color: var(--white);
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        
+.nav-links {
+    flex-direction: column;
+    background: var(--secondary-color);
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    width: 220px;
+    border-radius: 10px;
+    padding: 15px;
+    transition: all 0.3s ease;
+    display: none;
+}
+
+.nav-links.open {
+    display: flex;
+}
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, rgba(44, 36, 22, 0.92), rgba(74, 63, 46, 0.85)), 
+                        url('images/6008122273569032545.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            padding: 150px 0 100px;
+            margin-top: 80px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 20% 50%, rgba(212, 165, 116, 0.15), transparent 50%);
+            pointer-events: none;
+        }
+
+        .hero-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 60px;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-left h1 {
+            font-size: 56px;
+            color: var(--white);
+            margin-bottom: 20px;
+            line-height: 1.1;
+            border-left: 5px solid var(--accent-color);
+            padding-left: 20px;
+        }
+
+        .hero-left p {
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 30px;
+            line-height: 1.8;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 15px 35px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn-primary {
+            background: var(--primary-color);
+            color: var(--white);
+        }
+
+        .btn-primary:hover {
+            background: var(--accent-color);
+            color: var(--secondary-color);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(255, 107, 0, 0.3);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--white);
+            border: 2px solid var(--white);
+        }
+
+        .btn-secondary:hover {
+            background: var(--white);
+            color: var(--secondary-color);
+        }
+
+        .hero-right {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .hero-right h3 {
+            color: var(--white);
+            margin-bottom: 25px;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .quick-products {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .quick-product-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            transition: all 0.3s;
+            border-left: 3px solid transparent;
+        }
+
+        .quick-product-item:hover {
+            background: rgba(255, 107, 0, 0.1);
+            border-left-color: var(--primary-color);
+            transform: translateX(5px);
+        }
+
+        .quick-product-item i {
+            font-size: 24px;
+            color: var(--accent-color);
+        }
+
+        .quick-product-item .text h4 {
+            color: var(--white);
+            font-size: 16px;
+            margin-bottom: 3px;
+        }
+
+        .quick-product-item .text p {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 13px;
+        }
+
+        /* About Section */
+        .about-section {
+            padding: 100px 0;
+            background: var(--bg-light);
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-header h2 {
+            font-size: 42px;
+            color: var(--secondary-color);
+            margin-bottom: 15px;
+        }
+
+        .section-divider {
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+            margin: 0 auto 20px;
+            border-radius: 2px;
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            margin-bottom: 50px;
+        }
+
+        .about-box {
+            background: var(--white);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+            transition: transform 0.3s;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .about-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 50px rgba(0,0,0,0.12);
+        }
+
+        .about-box-image {
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .about-box h3 {
+            color: var(--primary-color);
+            font-size: 28px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .about-box h3 i {
+            font-size: 32px;
+        }
+
+        .about-box p {
+            color: var(--text-light);
+            font-size: 16px;
+            line-height: 1.8;
+        }
+
+        .about-gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .about-gallery img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s;
+            cursor: pointer;
+        }
+
+        .about-gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .trust-banner {
+            margin-top: 50px;
+            background: linear-gradient(135deg, var(--primary-color), var(--warm-light));
+            padding: 30px;
+            border-radius: 15px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .trust-item {
+            text-align: center;
+            color: var(--warm-dark);
+        }
+
+        .trust-item i {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .trust-item h4 {
+            font-size: 18px;
+            margin-bottom: 5px;
+            color: var(--secondary-color);
+        }
+
+        /* Products Slider */
+        .products-slider-section {
+            padding: 100px 0;
+            background: var(--white);
+        }
+
+        .slider-container {
+            position: relative;
+            max-width: 1000px;
+            margin: 50px auto 0;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+        }
+
+        .slider {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+
+        .slide {
+            min-width: 100%;
+            height: 500px;
+            background: var(--secondary-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .slide::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.5) 100%);
+            z-index: 1;
+        }
+
+        .slide-content {
+            position: absolute;
+            bottom: 40px;
+            left: 40px;
+            right: 40px;
+            color: var(--white);
+            z-index: 2;
+        }
+
+        .slide-content h3 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .slider-nav {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 10px;
+            z-index: 10;
+        }
+
+        .slider-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.5);
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .slider-dot.active {
+            background: var(--accent-color);
+            width: 30px;
+            border-radius: 6px;
+        }
+
+        .slider-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(5px);
+            color: var(--white);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            z-index: 10;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .slider-arrow:hover {
+            background: var(--primary-color);
+            transform: translateY(-50%) scale(1.1);
+        }
+
+        .slider-arrow.prev {
+            left: 20px;
+        }
+
+        .slider-arrow.next {
+            right: 20px;
+        }
+
+        /* Products Section */
+        .products-section {
+            padding: 100px 0;
+            background: var(--bg-light);
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .product-card {
+            background: var(--white);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            transition: all 0.3s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+        }
+
+        .product-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .product-info {
+            padding: 30px;
+        }
+
+        .product-info h3 {
+            color: var(--secondary-color);
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+
+        .product-info p {
+            color: var(--text-light);
+            margin-bottom: 20px;
+            font-size: 15px;
+            line-height: 1.7;
+        }
+
+        .product-sizes {
+            background: var(--bg-light);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .product-sizes h4 {
+            font-size: 14px;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .product-sizes p {
+            font-size: 13px;
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        .btn-small {
+            padding: 10px 20px;
+            font-size: 14px;
+        }
+
+        /* Why Choose Us */
+        .why-choose-section {
+            padding: 100px 0;
+            background: linear-gradient(135deg, rgba(44, 36, 22, 0.95), rgba(74, 63, 46, 0.9)),
+                        url('images/6008122273569032545.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: var(--white);
+        }
+
+        .why-choose-section h2 {
+            color: var(--white);
+            font-size: 42px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .why-choose-section > .container > p {
+            font-size: 18px;
+            line-height: 1.8;
+            max-width: 900px;
+            margin: 0 auto 40px;
+            color: rgba(255, 255, 255, 0.9);
+            text-align: center;
+        }
+
+        .why-choose-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin: 50px 0;
+        }
+
+        .why-choose-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .why-choose-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .why-choose-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .why-choose-card-content {
+            padding: 25px;
+        }
+
+        .why-choose-card h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .why-choose-card p {
+            font-size: 14px;
+            line-height: 1.6;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .quote-box {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 15px;
+            max-width: 600px;
+            margin: 50px auto 0;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            text-align: center;
+        }
+
+        .quote-box h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .quote-box .phone {
+            font-size: 32px;
+            color: var(--accent-color);
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            padding: 100px 0;
+            background: var(--white);
+        }
+
+        .faq-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            margin-top: 50px;
+        }
+
+        .faq-images {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            height: fit-content;
+        }
+
+        .faq-images img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .faq-images img:hover {
+            transform: scale(1.05);
+        }
+
+        .faq-container {
+            max-width: 100%;
+        }
+
+        .faq-item {
+            background: var(--bg-light);
+            margin-bottom: 15px;
+            border-radius: 10px;
+            overflow: hidden;
+            border: 2px solid transparent;
+            transition: all 0.3s;
+        }
+
+        .faq-item.active {
+            border-color: var(--primary-color);
+        }
+
+        .faq-question {
+            padding: 25px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            color: var(--secondary-color);
+            transition: all 0.3s;
+        }
+
+        .faq-question:hover {
+            color: var(--primary-color);
+        }
+
+        .faq-question i {
+            font-size: 20px;
+            transition: transform 0.3s;
+        }
+
+        .faq-item.active .faq-question i {
+            transform: rotate(180deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 300px;
+        }
+
+        .faq-answer p {
+            padding: 0 25px 25px;
+            color: var(--text-light);
+            line-height: 1.7;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            padding: 100px 0;
+            background: var(--bg-light);
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            margin-top: 50px;
+        }
+
+        .contact-info {
+            background: var(--white);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            margin-bottom: 30px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid var(--bg-light);
+        }
+
+        .contact-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .contact-item i {
+            font-size: 28px;
+            color: var(--primary-color);
+            width: 40px;
+            min-width: 40px;
+        }
+
+        .contact-item h4 {
+            color: var(--secondary-color);
+            margin-bottom: 8px;
+            font-size: 18px;
+        }
+
+        .contact-item p, .contact-item a {
+            color: var(--text-light);
+            text-decoration: none;
+            line-height: 1.6;
+        }
+
+        .contact-item a:hover {
+            color: var(--primary-color);
+        }
+
+        .contact-form {
+            background: var(--white);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--secondary-color);
+            font-weight: 600;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid var(--bg-light);
+            border-radius: 8px;
+            font-size: 15px;
+            transition: border-color 0.3s;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .social-links a {
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            transition: all 0.3s;
+        }
+
+        .social-links a:hover {
+            background: var(--primary-color);
+            transform: translateY(-3px);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--secondary-color);
+            color: var(--white);
+            padding: 60px 0 30px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-col h3 {
+            color: var(--accent-color);
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+
+        .footer-col p {
+            color: rgba(255, 255, 255, 0.7);
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+
+        .footer-col ul {
+            list-style: none;
+        }
+
+        .footer-col ul li {
+            margin-bottom: 12px;
+        }
+
+        .footer-col ul li a {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-col ul li a:hover {
+            color: var(--accent-color);
+            padding-left: 5px;
+        }
+
+        .newsletter-form {
+            display: flex;
+            gap: 10px;
+        }
+
+        .newsletter-form input {
+            flex: 1;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--white);
+        }
+
+        .newsletter-form input::placeholder {
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .newsletter-form button {
+            padding: 12px 20px;
+            background: var(--primary-color);
+            border: none;
+            border-radius: 5px;
+            color: var(--white);
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .newsletter-form button:hover {
+            background: var(--accent-color);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        /* WhatsApp Float Button */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #25D366;
+            color: var(--white);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            box-shadow: 0 5px 20px rgba(37, 211, 102, 0.5);
+            cursor: pointer;
+            transition: all 0.3s;
+            z-index: 999;
+            animation: pulse 2s infinite;
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 30px rgba(37, 211, 102, 0.7);
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                box-shadow: 0 5px 20px rgba(37, 211, 102, 0.5);
+            }
+            50% {
+                box-shadow: 0 5px 30px rgba(37, 211, 102, 0.8);
+            }
+        }
+
+        
+/* Navigation Display Fix */
+@media (min-width: 969px) {
+    .nav-links {
+        display: flex !important;
+        position: static;
+        flex-direction: row;
+        background: none;
+        width: auto;
+        padding: 0;
+    }
+}
+
+        /* Responsive Design */
+        @media (max-width: 968px) {
+            .nav-links {
+                display: none;
+            }
+
+            .mobile-menu-toggle {
+                display: block;
+            }
+
+            .hero-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .hero-left h1 {
+                font-size: 40px;
+            }
+
+            .about-content,
+            .contact-grid,
+            .faq-wrapper,
+            .why-choose-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .products-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .trust-banner {
+                flex-direction: column;
+            }
+
+            .about-gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                padding: 120px 0 60px;
+            }
+
+            .hero-left h1 {
+                font-size: 32px;
+            }
+
+            .hero-left p {
+                font-size: 16px;
+            }
+
+            .section-header h2 {
+                font-size: 32px;
+            }
+
+            .slide {
+                height: 350px;
+            }
+
+            .slider-arrow {
+                width: 40px;
+                height: 40px;
+                font-size: 18px;
+            }
+        }
+
+        /* Smooth Scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="images/6008122273569032525.jpg" alt="JayEben Cable Hub Logo" style="height: 60px; width: auto;">
+                <div class="logo-text">
+                    <h2>JayEben Cable Hub</h2>
+                    <p>Power Your Projects</p>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact" class="nav-cta">Get Quote</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <h1>JayEben Cable Hub</h1>
+                    <p>At JayEben Cable Hub, we are more than just a supplier – we are Ghana's trusted partner in delivering top-quality electrical cables for every need. From house wiring to industrial cables, we've got you covered with a wide range of cables designed for durability, safety, and performance.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-file-invoice"></i>
+                            Get Quote
+                        </a>
+                        <a href="https://wa.me/233548169704?text=Hi%2C%20I'm%20interested%20in%20your%20cables" class="btn btn-secondary" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            WhatsApp Us
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <h3>Our Cable Types</h3>
+                    <div class="quick-products">
+                        <div class="quick-product-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <div class="text">
+                                <h4>Armoured Cables</h4>
+                                <p>Extra protection for high-risk environments</p>
+                            </div>
+                        </div>
+                        <div class="quick-product-item">
+                            <i class="fas fa-link"></i>
+                            <div class="text">
+                                <h4>Flexible Cables</h4>
+                                <p>Perfect for movement & bending</p>
+                            </div>
+                        </div>
+                        <div class="quick-product-item">
+                            <i class="fas fa-atom"></i>
+                            <div class="text">
+                                <h4>Copper Cables</h4>
+                                <p>Superior conductivity & efficiency</p>
+                            </div>
+                        </div>
+                        <div class="quick-product-item">
+                            <i class="fas fa-bolt"></i>
+                            <div class="text">
+                                <h4>Single Core Cables</h4>
+                                <p>Simple & effective solutions</p>
+                            </div>
+                        </div>
+                        <div class="quick-product-item">
+                            <i class="fas fa-network-wired"></i>
+                            <div class="text">
+                                <h4>Conduit Cables</h4>
+                                <p>Outdoor & exposed installations</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Powering Ghana's Electrical Systems</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-box">
+                    <img src="images/cab1.png" alt="JayEben Cable Hub Team" class="about-box-image">
+                    <h3>
+                        <i class="fas fa-building"></i>
+                        Who We Are
+                    </h3>
+                    <p>At JayEben Cable Hub, we are a leading supplier of premium electrical cables in Ghana, committed to delivering top-quality products for every electrical need. Whether you're working on residential wiring, industrial projects, or specialized systems, we offer a wide range of cables, including armoured, flexible, copper, aluminium, and more.</p>
+                </div>
+                <div class="about-box">
+                    <img src="images/cab2.png" alt="Quality Cable Products" class="about-box-image">
+                    <h3>
+                        <i class="fas fa-cogs"></i>
+                        What We Do
+                    </h3>
+                    <p>We are dedicated to providing safe, reliable, and efficient cable solutions that ensure optimal performance and durability. With a focus on customer satisfaction, we provide tailored advice and superior service to meet the unique needs of each project. At JayEben Cable Hub, we not only supply cables – we provide the power that drives your electrical systems forward.</p>
+                </div>
+            </div>
+
+            <div class="about-gallery">
+                <img src="images/cab3.png" alt="Cable Products">
+                <img src="images/cab4.png" alt="Quality Cables">
+                <img src="images/cab5.png" alt="Professional Service">
+                <img src="images/cab6.png" alt="Wide Range">
+            </div>
+
+            <div class="trust-banner">
+                <div class="trust-item">
+                    <i class="fas fa-box"></i>
+                    <h4>Wide Range of Cables</h4>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-tag"></i>
+                    <h4>Best Prices in Ghana</h4>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-shipping-fast"></i>
+                    <h4>Fast Delivery Available</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products-slider-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Products</h2>
+                <div class="section-divider"></div>
+                <p>Browse through our collection of high-quality electrical cables</p>
+            </div>
+            <div class="slider-container">
+                <div class="slider" id="productSlider">
+                    <div class="slide">
+                        <img src="images/6008122273569032516.jpg" alt="Cable Products">
+                        <div class="slide-content">
+                            <h3>Premium Quality Cables</h3>
+                            <p>Trusted by professionals across Ghana</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032517.jpg" alt="Armoured Cables">
+                        <div class="slide-content">
+                            <h3>Armoured Cables</h3>
+                            <p>Heavy-duty protection for industrial use</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032518.jpg" alt="Flexible Cables">
+                        <div class="slide-content">
+                            <h3>Flexible Cables</h3>
+                            <p>Versatile solutions for dynamic applications</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032519.jpg" alt="Copper Cables">
+                        <div class="slide-content">
+                            <h3>Copper Cables</h3>
+                            <p>Superior conductivity guaranteed</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032520.jpg" alt="Single Core Cables">
+                        <div class="slide-content">
+                            <h3>Single Core Cables</h3>
+                            <p>Reliable power distribution</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032521.jpg" alt="Conduit Cables">
+                        <div class="slide-content">
+                            <h3>Conduit Cables</h3>
+                            <p>Perfect for outdoor installations</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032522.jpg" alt="AutoFlex Cables">
+                        <div class="slide-content">
+                            <h3>AutoFlex Cables</h3>
+                            <p>Specialized automotive solutions</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032523.jpg" alt="PVC Cables">
+                        <div class="slide-content">
+                            <h3>PVC Cables</h3>
+                            <p>Versatile insulation protection</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032524.jpg" alt="Service Cables">
+                        <div class="slide-content">
+                            <h3>Service Cables</h3>
+                            <p>Residential & commercial power</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032526.jpg" alt="Cable Range">
+                        <div class="slide-content">
+                            <h3>Wide Product Range</h3>
+                            <p>All sizes and types available</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032527.jpg" alt="Quality Cables">
+                        <div class="slide-content">
+                            <h3>Quality Assured</h3>
+                            <p>Certified and tested products</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032528.jpg" alt="Cable Solutions">
+                        <div class="slide-content">
+                            <h3>Complete Cable Solutions</h3>
+                            <p>For every electrical need</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032529.jpg" alt="Industrial Cables">
+                        <div class="slide-content">
+                            <h3>Industrial Grade</h3>
+                            <p>Built for heavy-duty applications</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032530.jpg" alt="Residential Wiring">
+                        <div class="slide-content">
+                            <h3>Residential Wiring</h3>
+                            <p>Safe and reliable home solutions</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032531.jpg" alt="Commercial Cables">
+                        <div class="slide-content">
+                            <h3>Commercial Applications</h3>
+                            <p>Professional grade cables</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032532.jpg" alt="Power Distribution">
+                        <div class="slide-content">
+                            <h3>Power Distribution</h3>
+                            <p>Efficient energy transmission</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032533.jpg" alt="Cable Installation">
+                        <div class="slide-content">
+                            <h3>Expert Installation</h3>
+                            <p>Professional service available</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032534.jpg" alt="Underground Cables">
+                        <div class="slide-content">
+                            <h3>Underground Solutions</h3>
+                            <p>Durable and protected</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032535.jpg" alt="Overhead Cables">
+                        <div class="slide-content">
+                            <h3>Overhead Lines</h3>
+                            <p>Weather-resistant cables</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032536.jpg" alt="Cable Testing">
+                        <div class="slide-content">
+                            <h3>Quality Testing</h3>
+                            <p>Every cable verified for safety</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032537.jpg" alt="Fire Resistant">
+                        <div class="slide-content">
+                            <h3>Fire Resistant</h3>
+                            <p>Safety first in every application</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032538.jpg" alt="Waterproof Cables">
+                        <div class="slide-content">
+                            <h3>Waterproof Solutions</h3>
+                            <p>Protected in wet conditions</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032539.jpg" alt="Cable Reels">
+                        <div class="slide-content">
+                            <h3>Available in Reels</h3>
+                            <p>Convenient bulk packaging</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032540.jpg" alt="Custom Lengths">
+                        <div class="slide-content">
+                            <h3>Custom Lengths</h3>
+                            <p>Cut to your specifications</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032541.jpg" alt="Multi-Core Cables">
+                        <div class="slide-content">
+                            <h3>Multi-Core Options</h3>
+                            <p>Complex wiring made simple</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032542.jpg" alt="Cable Accessories">
+                        <div class="slide-content">
+                            <h3>Complete Accessories</h3>
+                            <p>Everything you need</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032544.jpg" alt="Bulk Orders">
+                        <div class="slide-content">
+                            <h3>Bulk Orders Welcome</h3>
+                            <p>Special rates for contractors</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032545.jpg" alt="Warehouse Stock">
+                        <div class="slide-content">
+                            <h3>Large Stock Available</h3>
+                            <p>Ready for immediate delivery</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032546.jpg" alt="Fast Delivery">
+                        <div class="slide-content">
+                            <h3>Fast Delivery</h3>
+                            <p>Serving all of Accra and beyond</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032547.jpg" alt="Technical Support">
+                        <div class="slide-content">
+                            <h3>Technical Support</h3>
+                            <p>Expert advice available</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032548.jpg" alt="Certified Products">
+                        <div class="slide-content">
+                            <h3>Certified Products</h3>
+                            <p>Meeting international standards</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032549.jpg" alt="Competitive Prices">
+                        <div class="slide-content">
+                            <h3>Best Prices in Ghana</h3>
+                            <p>Quality meets affordability</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032550.jpg" alt="Warranty">
+                        <div class="slide-content">
+                            <h3>Warranty Guaranteed</h3>
+                            <p>Confidence in every purchase</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032551.jpg" alt="Installation Guide">
+                        <div class="slide-content">
+                            <h3>Installation Guidance</h3>
+                            <p>We help you get it right</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032552.jpg" alt="Projects Completed">
+                        <div class="slide-content">
+                            <h3>Trusted by Thousands</h3>
+                            <p>Powering projects across Ghana</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/6008122273569032553.jpg" alt="Contact Us">
+                        <div class="slide-content">
+                            <h3>Get Your Quote Today</h3>
+                            <p>Call us: 0548169704</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-arrow prev" onclick="moveSlide(-1)">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="slider-arrow next" onclick="moveSlide(1)">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+                <div class="slider-nav" id="sliderNav"></div>
+            </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="#products" class="btn btn-primary">View All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="products-section" id="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Product Range</h2>
+                <div class="section-divider"></div>
+                <p>Comprehensive electrical cable solutions for every need</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="images/cab7.png" alt="Armoured Cables" class="product-image">
+                    <div class="product-info">
+                        <h3>Armoured Cables</h3>
+                        <p>Durable and strong, our armoured cables are designed to provide extra protection against physical damage, making them ideal for both indoor and outdoor installations in high-risk environments.</p>
+                        <div class="product-sizes">
+                            <h4>Available Sizes</h4>
+                            <p><strong>Three Core:</strong> 1.5mm x 3, 2.5mm x 3, 2 x 16mm, 4mm x 3, 6mm x 3</p>
+                            <p><strong>Four Core:</strong> 1.5mm x 4, 2.5mm x 4, 4mm x 4, 6mm x 4, 4x10mm, 4x16mm, 4x25mm, 4x35mm, 4x50mm, 4x70mm, 4x95mm, 4x120mm, 4x185mm, 4x240mm</p>
+                        </div>
+                        <a href="#contact" class="btn btn-primary btn-small">Request Quote</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/cab8.png" alt="Flexible Cables" class="product-image">
+                    <div class="product-info">
+                        <h3>Flexible Cables</h3>
+                        <p>Engineered for flexibility, these cables are perfect for applications that require movement and bending, offering a high level of versatility in various electrical systems.</p>
+                        <div class="product-sizes">
+                            <h4>Available Sizes</h4>
+                            <p>1.5mm x 2, 1.5mm x 3, 1.5mm x 4, 2.5mm x 3, 2.5mm x 4, 4mm x 4, 4mm x 6, 4mm x 5, 6mm x 4, 10mm x 4, 16mm x 4</p>
+                        </div>
+                        <a href="#contact" class="btn btn-primary btn-small">Request Quote</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/cab9.png" alt="AutoFlex Cables" class="product-image">
+                    <div class="product-info">
+                        <h3>AutoFlex Cables</h3>
+                        <p>Specially designed for automotive use, AutoFlex cables are highly flexible and resistant to wear, ensuring reliable performance in vehicles and machinery.</p>
+                        <div class="product-sizes">
+                            <h4>Available Sizes</h4>
+                            <p>25mm Auto, 35mm Auto, 50mm Auto, 70mm Auto</p>
+                        </div>
+                        <a href="#contact" class="btn btn-primary btn-small">Request Quote</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/cab10.png" alt="Conduit Cables" class="product-image">
+                    <div class="product-info">
+                        <h3>Conduit Cables</h3>
+                        <p>Our conduit cables are ideal for protecting wires in outdoor or exposed installations. With their sturdy construction, they ensure the safety and longevity of your electrical systems.</p>
+                        <div class="product-sizes">
+                            <h4>Available Sizes</h4>
+                            <p>1.5mm, 2.5mm, 4mm, 6mm, 10mm, 16mm, 25mm</p>
+                        </div>
+                        <a href="#contact" class="btn btn-primary btn-small">Request Quote</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/cab11.png" alt="Copper Cables" class="product-image">
+                    <div class="product-info">
+                        <h3>Copper Cables</h3>
+                        <p>Renowned for their superior conductivity, our copper cables offer reliable and efficient electrical transmission, making them perfect for a wide range of applications.</p>
+                        <a href="#contact" class="btn btn-primary btn-small">Request Quote</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/cab12.png" alt="Aluminium Cables" class="product-image">
+                    <div class="product-info">
+                        <h3>Aluminium Cables</h3>
+                        <p>Lightweight yet strong, aluminium cables provide an economical alternative to copper cables without compromising on performance, making them perfect for large-scale installations.</p>
+                        <a href="#contact" class="btn btn-primary btn-small">Request Quote</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/cab13.png" alt="PVC Cables" class="product-image">
+                    <div class="product-info">
+                        <h3>PVC Cables</h3>
+                        <p>Our PVC cables are versatile, offering excellent insulation and protection against moisture, chemicals, and abrasions, making them ideal for residential and industrial applications.</p>
+                        <a href="#contact" class="btn btn-primary btn-small">Request Quote</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/cab14.png" alt="Service Cables" class="product-image">
+                    <div class="product-info">
+                        <h3>Service Cables</h3>
+                        <p>Designed for power distribution in residential and commercial settings, our service cables provide reliable connections to electrical systems, ensuring safety and efficiency.</p>
+                        <a href="#contact" class="btn btn-primary btn-small">Request Quote</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/cab15.png" alt="Single Core Cables" class="product-image">
+                    <div class="product-info">
+                        <h3>Single Core Cables</h3>
+                        <p>Perfect for straightforward electrical circuits, our single core cables are easy to install and are suitable for a wide range of applications that require a simple, effective solution.</p>
+                        <div class="product-sizes">
+                            <h4>Available Sizes</h4>
+                            <p><strong>Standard:</strong> 25mm, 35mm, 50mm, 70mm</p>
+                            <p><strong>Auto Series:</strong> 25mm Auto, 35mm Auto, 50mm Auto, 70mm Auto</p>
+                        </div>
+                        <a href="#contact" class="btn btn-primary btn-small">Request Quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-choose-section">
+        <div class="container">
+            <h2>Why Choose JayEben Cable Hub?</h2>
+            <p>As the leading supplier of electrical cables in Ghana, we take pride in offering only the best products, backed by exceptional customer service. Whether you're tackling a home project or managing large-scale industrial work, you can count on us for reliable and affordable solutions.</p>
+            
+            <div class="why-choose-grid">
+                <div class="why-choose-card">
+                    <img src="images/cab16.png" alt="Quality Products">
+                    <div class="why-choose-card-content">
+                        <h3>Premium Quality</h3>
+                        <p>All our cables meet international standards and are certified for safety and performance</p>
+                    </div>
+                </div>
+                <div class="why-choose-card">
+                    <img src="images/cab17.png" alt="Expert Service">
+                    <div class="why-choose-card-content">
+                        <h3>Expert Guidance</h3>
+                        <p>Our knowledgeable team provides professional consultation for your project needs</p>
+                    </div>
+                </div>
+                <div class="why-choose-card">
+                    <img src="images/cab18.png" alt="Fast Delivery">
+                    <div class="why-choose-card-content">
+                        <h3>Fast Delivery</h3>
+                        <p>Quick and reliable delivery service across Accra and surrounding areas</p>
+                    </div>
+                </div>
+            </div>
+
+            <p style="margin-top: 40px;">When you choose JayEben Cable Hub, you're choosing a company known for trust, quality, and unmatched expertise in the electrical cable industry. Whatever the job, we have the cables you need to get it done right!</p>
+            
+            <div class="quote-box">
+                <h3>Call For a Quote</h3>
+                <div class="phone">0548169704</div>
+                <a href="#contact" class="btn btn-primary">Get Quote Now</a>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="testimonials" style="background: var(--white); padding: 100px 0;">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+                <div class="section-divider"></div>
+                <p>Trusted by contractors, homeowners, and engineers across Ghana</p>
+            </div>
+            <div class="testimonial-list" style="display: flex; flex-direction: column; gap: 40px;">
+                <div class="testimonial" style="max-width: 800px; margin: 0 auto; text-align: center;">
+                    <p style="font-size: 18px; font-style: italic; color: var(--text-light); margin-bottom: 20px;">
+                        "JayEben supplied all the cables for our Accra project — reliable service, fast delivery, and great pricing!"
+                    </p>
+                    <h4 style="color: var(--secondary-color); font-weight: 700;">– Kofi Mensah, Electrical Contractor</h4>
+                </div>
+                <div class="testimonial" style="max-width: 800px; margin: 0 auto; text-align: center;">
+                    <p style="font-size: 18px; font-style: italic; color: var(--text-light); margin-bottom: 20px;">
+                        "Finding genuine copper cables can be tough, but JayEben Cable Hub consistently delivers the best quality. Their armoured cables are top-notch for industrial sites."
+                    </p>
+                    <h4 style="color: var(--secondary-color); font-weight: 700;">– Ing. Samuel Osei, Site Manager</h4>
+                </div>
+                <div class="testimonial" style="max-width: 800px; margin: 0 auto; text-align: center;">
+                    <p style="font-size: 18px; font-style: italic; color: var(--text-light); margin-bottom: 20px;">
+                        "Excellent customer service! They took the time to explain the differences between the cable types I needed for my new home. Highly recommended for any homeowner."
+                    </p>
+                    <h4 style="color: var(--secondary-color); font-weight: 700;">– Mrs. Elizabeth Appiah, Homeowner</h4>
+                </div>
+                <div class="testimonial" style="max-width: 800px; margin: 0 auto; text-align: center;">
+                    <p style="font-size: 18px; font-style: italic; color: var(--text-light); margin-bottom: 20px;">
+                        "As a long-term partner, JayEben never disappoints. Their bulk pricing is very competitive, and the delivery to our warehouse is always on schedule."
+                    </p>
+                    <h4 style="color: var(--secondary-color); font-weight: 700;">– David Tetteh, Procurement Officer</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="faq-wrapper">
+                <div class="faq-images">
+                    <img src="images/cab19.png" alt="Cable Quality">
+                    <img src="images/cab20.png" alt="Professional Service">
+                    <img src="images/cab21.png" alt="Wide Selection">
+                    <img src="images/cab22.png" alt="Customer Satisfaction">
+                </div>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <span>Do you deliver to all parts of Accra?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, we deliver to all areas within Accra and surrounding regions. Contact us for delivery details and rates based on your location.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <span>What is the minimum order quantity?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We serve both retail and wholesale customers. There is no minimum order quantity for retail customers. For bulk wholesale orders, please contact us for special pricing.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <span>Are your cables certified?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, all our cables meet international quality standards and safety certifications. We only supply certified products that ensure optimal performance and safety.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <span>Can I get technical advice on cable selection?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Absolutely! Our team of experts provides professional consultation to help you choose the right cable for your specific project requirements. Contact us anytime for advice.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <span>Do you offer installation services?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We can recommend trusted, experienced electricians and contractors for your installation needs. Let us know your requirements and we'll connect you with the right professionals.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <span>What payment methods do you accept?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We accept Mobile Money (MTN, Vodafone, AirtelTigo), Bank Transfer, and Cash payments. For corporate clients, we also offer invoice payment options.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="section-divider"></div>
+                <p>Have questions? Need a quote? We're here to help!</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Business Hours</h4>
+                            <p>Monday - Friday: 8:00am - 6:00pm<br>
+                            Saturday: 8:00am - 4:00pm<br>
+                            Sunday: Closed</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/CableMaster" target="_blank" title="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/1cable_mater" target="_blank" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/233548169704" target="_blank" title="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form onsubmit="handleSubmit(event)">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" required placeholder="0548169704">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="your@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="cableType">Cable Type Needed</label>
+                            <select id="cableType">
+                                <option value="">Select Cable Type</option>
+                                <option value="armoured">Armoured Cables</option>
+                                <option value="flexible">Flexible Cables</option>
+                                <option value="autoflex">AutoFlex Cables</option>
+                                <option value="conduit">Conduit Cables</option>
+                                <option value="copper">Copper Cables</option>
+                                <option value="aluminium">Aluminium Cables</option>
+                                <option value="pvc">PVC Cables</option>
+                                <option value="service">Service Cables</option>
+                                <option value="singlecore">Single Core Cables</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" required placeholder="Tell us about your project and cable requirements..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+<div class="contact-item">
+    <i class="fas fa-map-marker-alt"></i>
+    <div>
+        <h4>Location</h4>
+        <p>Accra Post Office<br>Accra, Ghana</p>
+    </div>
+</div>
+<div class="contact-item">
+    <i class="fas fa-phone"></i>
+    <div>
+        <h4>Phone & WhatsApp</h4>
+        <a href="tel:+233548169704">0548169704</a>
+    </div>
+</div>
+<div class="contact-item">
+    <i class="fas fa-envelope"></i>
+    <div>
+        <h4>Email</h4>
+        <a href="mailto:ebendarkwa1@gmail.com">ebendarkwa1@gmail.com</a>
+    </div>
+</div>
+
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>About JayEben Cable Hub</h3>
+                    <p>Ghana's trusted partner in quality electrical cables. Supplying top-grade cables for residential, commercial, and industrial projects since day one.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/CableMaster" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/1cable_mater" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/233548169704" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="#products">Armoured Cables</a></li>
+                        <li><a href="#products">Flexible Cables</a></li>
+                        <li><a href="#products">Copper Cables</a></li>
+                        <li><a href="#products">Single Core Cables</a></li>
+                        <li><a href="#products">View All →</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe for updates & special offers</p>
+                    <form class="newsletter-form" onsubmit="handleNewsletter(event)">
+                        <input type="email" placeholder="Your email" required>
+                        <button type="submit">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 JayEben Cable Hub. All rights reserved. | Powering Ghana's Electrical Systems</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/233548169704?text=Hi%2C%20I'm%20interested%20in%20your%20cables.%20Can%20you%20help%20me%3F" class="whatsapp-float" target="_blank" title="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script>
+    // FAQ Toggle Function (Moved to Global Scope for onclick access)
+    function toggleFAQ(element) {
+        const faqItem = element.parentElement;
+        const isActive = faqItem.classList.contains('active');
+        
+        // Close all FAQs
+        document.querySelectorAll('.faq-item').forEach(item => {
+            item.classList.remove('active');
+        });
+        
+        // Open clicked FAQ if it wasn't active
+        if (!isActive) {
+            faqItem.classList.add('active');
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        // Slider Functionality
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const sliderNav = document.getElementById('sliderNav');
+        
+        // Create navigation dots
+        slides.forEach((_, index) => {
+            const dot = document.createElement('div');
+            dot.className = 'slider-dot';
+            if (index === 0) dot.classList.add('active');
+            dot.onclick = () => goToSlide(index);
+            sliderNav.appendChild(dot);
+        });
+        
+        function updateSlider() {
+            const slider = document.getElementById('productSlider');
+            if(slider) {
+                slider.style.transform = `translateX(-${currentSlide * 100}%)`;
+                document.querySelectorAll('.slider-dot').forEach((dot, index) => {
+                    dot.classList.toggle('active', index === currentSlide);
+                });
+            }
+        }
+        
+        // Define slide movement globally within the scope if needed by buttons
+        window.moveSlide = function(direction) {
+            currentSlide += direction;
+            if (currentSlide < 0) currentSlide = slides.length - 1;
+            if (currentSlide >= slides.length) currentSlide = 0;
+            updateSlider();
+        }
+        
+        window.goToSlide = function(index) {
+            currentSlide = index;
+            updateSlider();
+        }
+        
+        // Auto-play slider
+        setInterval(() => moveSlide(1), 3000);
+        
+        // Sticky Header
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+        
+        // Form Submission
+        window.handleSubmit = function(event) {
+            event.preventDefault();
+            const name = document.getElementById('name').value;
+            const phone = document.getElementById('phone').value;
+            const email = document.getElementById('email').value;
+            const cableType = document.getElementById('cableType').value;
+            const message = document.getElementById('message').value;
+            
+            const whatsappMessage = `Hi! I'm ${name}. Phone: ${phone}. Email: ${email}. Cable Type: ${cableType}. Message: ${message}`;
+            const encodedMessage = encodeURIComponent(whatsappMessage);
+            window.open(`https://wa.me/233548169704?text=${encodedMessage}`, '_blank');
+            alert('Thank you! Redirecting you to WhatsApp...');
+            event.target.reset();
+        }
+        
+        // Newsletter
+        window.handleNewsletter = function(event) {
+            event.preventDefault();
+            alert('Thank you for subscribing! We\'ll keep you updated with our latest offers.');
+            event.target.reset();
+        }
+        
+        // Mobile Menu Toggle
+        document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('open');
+            // Corrected display logic
+            if (navLinks.classList.contains('open')) {
+                navLinks.style.display = 'flex';
+            } else {
+                navLinks.style.display = 'none';
+            }
+        });
+        
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                if(targetId === '#') return;
+                const target = document.querySelector(targetId);
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    if (window.innerWidth <= 968) {
+                        const navLinks = document.querySelector('.nav-links');
+                        navLinks.classList.remove('open');
+                        navLinks.style.display = 'none';
+                    }
+                }
+            });
+        });
+    });
+    </script>
+
+    <a href="#home" class="back-to-top" title="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <style>
+        .back-to-top {
+            position: fixed;
+            bottom: 100px;
+            right: 30px;
+            background: var(--primary-color);
+            color: var(--white);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            transition: all 0.3s;
+            z-index: 998;
+        }
+        .back-to-top:hover {
+            background: var(--accent-color);
+            transform: translateY(-3px);
+        }
+    </style>
+
+</body>
+</html>
