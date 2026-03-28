@@ -11,8 +11,13 @@
 <meta property="og:image" content="images/6008122273569032525.jpg">
 <meta property="og:url" content="https://your-website-link.com">
 <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://jayebencablehub.com">
+    <link rel="preload" as="image" href="images/6008122273569032545.jpg">
     
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"></noscript>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
@@ -808,6 +813,17 @@
         }
 
         /* Contact Section */
+        .simple-contact-grid {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        .simple-contact-grid .contact-info {
+            max-width: 520px;
+            width: 100%;
+        }
+
         .contact-section {
             padding: 100px 0;
             background: var(--bg-light);
@@ -1063,6 +1079,10 @@
 
         /* Responsive Design */
         @media (max-width: 968px) {
+            .hero, .why-choose-section {
+                background-attachment: scroll;
+            }
+
             .nav-links {
                 display: none;
             }
@@ -1133,6 +1153,40 @@
             scroll-behavior: smooth;
         }
     </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "JayEben Cable Hub",
+      "description": "Leading supplier of premium electrical cables in Ghana. Armoured, Flexible, Copper, Aluminium cables and more.",
+      "url": "https://jayebencablehub.com",
+      "telephone": "+233548169704",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Accra Post Office",
+        "addressLocality": "Accra",
+        "addressCountry": "GH"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+          "opens": "08:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "16:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/CableMaster",
+        "https://www.instagram.com/1cable_mater"
+      ]
+    }
+    </script>
 </head>
 <body>
     <header>
@@ -1227,7 +1281,7 @@
             </div>
             <div class="about-content">
                 <div class="about-box">
-                    <img src="images/cab1.png" alt="JayEben Cable Hub Team" class="about-box-image">
+                    <img loading="lazy" src="images/cab1.png" alt="JayEben Cable Hub Team" class="about-box-image">
                     <h3>
                         <i class="fas fa-building"></i>
                         Who We Are
@@ -1235,7 +1289,7 @@
                     <p>At JayEben Cable Hub, we are a leading supplier of premium electrical cables in Ghana, committed to delivering top-quality products for every electrical need. Whether you're working on residential wiring, industrial projects, or specialized systems, we offer a wide range of cables, including armoured, flexible, copper, aluminium, and more.</p>
                 </div>
                 <div class="about-box">
-                    <img src="images/cab2.png" alt="Quality Cable Products" class="about-box-image">
+                    <img loading="lazy" src="images/cab2.png" alt="Quality Cable Products" class="about-box-image">
                     <h3>
                         <i class="fas fa-cogs"></i>
                         What We Do
@@ -1245,10 +1299,10 @@
             </div>
 
             <div class="about-gallery">
-                <img src="images/cab3.png" alt="Cable Products">
-                <img src="images/cab4.png" alt="Quality Cables">
-                <img src="images/cab5.png" alt="Professional Service">
-                <img src="images/cab6.png" alt="Wide Range">
+                <img loading="lazy" src="images/cab3.png" alt="Cable Products">
+                <img loading="lazy" src="images/cab4.png" alt="Quality Cables">
+                <img loading="lazy" src="images/cab5.png" alt="Professional Service">
+                <img loading="lazy" src="images/cab6.png" alt="Wide Range">
             </div>
 
             <div class="trust-banner">
@@ -1278,252 +1332,252 @@
             <div class="slider-container">
                 <div class="slider" id="productSlider">
                     <div class="slide">
-                        <img src="images/6008122273569032516.jpg" alt="Cable Products">
+                        <img loading="lazy" src="images/6008122273569032516.jpg" alt="Cable Products">
                         <div class="slide-content">
                             <h3>Premium Quality Cables</h3>
                             <p>Trusted by professionals across Ghana</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032517.jpg" alt="Armoured Cables">
+                        <img loading="lazy" src="images/6008122273569032517.jpg" alt="Armoured Cables">
                         <div class="slide-content">
                             <h3>Armoured Cables</h3>
                             <p>Heavy-duty protection for industrial use</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032518.jpg" alt="Flexible Cables">
+                        <img loading="lazy" src="images/6008122273569032518.jpg" alt="Flexible Cables">
                         <div class="slide-content">
                             <h3>Flexible Cables</h3>
                             <p>Versatile solutions for dynamic applications</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032519.jpg" alt="Copper Cables">
+                        <img loading="lazy" src="images/6008122273569032519.jpg" alt="Copper Cables">
                         <div class="slide-content">
                             <h3>Copper Cables</h3>
                             <p>Superior conductivity guaranteed</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032520.jpg" alt="Single Core Cables">
+                        <img loading="lazy" src="images/6008122273569032520.jpg" alt="Single Core Cables">
                         <div class="slide-content">
                             <h3>Single Core Cables</h3>
                             <p>Reliable power distribution</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032521.jpg" alt="Conduit Cables">
+                        <img loading="lazy" src="images/6008122273569032521.jpg" alt="Conduit Cables">
                         <div class="slide-content">
                             <h3>Conduit Cables</h3>
                             <p>Perfect for outdoor installations</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032522.jpg" alt="AutoFlex Cables">
+                        <img loading="lazy" src="images/6008122273569032522.jpg" alt="AutoFlex Cables">
                         <div class="slide-content">
                             <h3>AutoFlex Cables</h3>
                             <p>Specialized automotive solutions</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032523.jpg" alt="PVC Cables">
+                        <img loading="lazy" src="images/6008122273569032523.jpg" alt="PVC Cables">
                         <div class="slide-content">
                             <h3>PVC Cables</h3>
                             <p>Versatile insulation protection</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032524.jpg" alt="Service Cables">
+                        <img loading="lazy" src="images/6008122273569032524.jpg" alt="Service Cables">
                         <div class="slide-content">
                             <h3>Service Cables</h3>
                             <p>Residential & commercial power</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032526.jpg" alt="Cable Range">
+                        <img loading="lazy" src="images/6008122273569032526.jpg" alt="Cable Range">
                         <div class="slide-content">
                             <h3>Wide Product Range</h3>
                             <p>All sizes and types available</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032527.jpg" alt="Quality Cables">
+                        <img loading="lazy" src="images/6008122273569032527.jpg" alt="Quality Cables">
                         <div class="slide-content">
                             <h3>Quality Assured</h3>
                             <p>Certified and tested products</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032528.jpg" alt="Cable Solutions">
+                        <img loading="lazy" src="images/6008122273569032528.jpg" alt="Cable Solutions">
                         <div class="slide-content">
                             <h3>Complete Cable Solutions</h3>
                             <p>For every electrical need</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032529.jpg" alt="Industrial Cables">
+                        <img loading="lazy" src="images/6008122273569032529.jpg" alt="Industrial Cables">
                         <div class="slide-content">
                             <h3>Industrial Grade</h3>
                             <p>Built for heavy-duty applications</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032530.jpg" alt="Residential Wiring">
+                        <img loading="lazy" src="images/6008122273569032530.jpg" alt="Residential Wiring">
                         <div class="slide-content">
                             <h3>Residential Wiring</h3>
                             <p>Safe and reliable home solutions</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032531.jpg" alt="Commercial Cables">
+                        <img loading="lazy" src="images/6008122273569032531.jpg" alt="Commercial Cables">
                         <div class="slide-content">
                             <h3>Commercial Applications</h3>
                             <p>Professional grade cables</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032532.jpg" alt="Power Distribution">
+                        <img loading="lazy" src="images/6008122273569032532.jpg" alt="Power Distribution">
                         <div class="slide-content">
                             <h3>Power Distribution</h3>
                             <p>Efficient energy transmission</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032533.jpg" alt="Cable Installation">
+                        <img loading="lazy" src="images/6008122273569032533.jpg" alt="Cable Installation">
                         <div class="slide-content">
                             <h3>Expert Installation</h3>
                             <p>Professional service available</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032534.jpg" alt="Underground Cables">
+                        <img loading="lazy" src="images/6008122273569032534.jpg" alt="Underground Cables">
                         <div class="slide-content">
                             <h3>Underground Solutions</h3>
                             <p>Durable and protected</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032535.jpg" alt="Overhead Cables">
+                        <img loading="lazy" src="images/6008122273569032535.jpg" alt="Overhead Cables">
                         <div class="slide-content">
                             <h3>Overhead Lines</h3>
                             <p>Weather-resistant cables</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032536.jpg" alt="Cable Testing">
+                        <img loading="lazy" src="images/6008122273569032536.jpg" alt="Cable Testing">
                         <div class="slide-content">
                             <h3>Quality Testing</h3>
                             <p>Every cable verified for safety</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032537.jpg" alt="Fire Resistant">
+                        <img loading="lazy" src="images/6008122273569032537.jpg" alt="Fire Resistant">
                         <div class="slide-content">
                             <h3>Fire Resistant</h3>
                             <p>Safety first in every application</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032538.jpg" alt="Waterproof Cables">
+                        <img loading="lazy" src="images/6008122273569032538.jpg" alt="Waterproof Cables">
                         <div class="slide-content">
                             <h3>Waterproof Solutions</h3>
                             <p>Protected in wet conditions</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032539.jpg" alt="Cable Reels">
+                        <img loading="lazy" src="images/6008122273569032539.jpg" alt="Cable Reels">
                         <div class="slide-content">
                             <h3>Available in Reels</h3>
                             <p>Convenient bulk packaging</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032540.jpg" alt="Custom Lengths">
+                        <img loading="lazy" src="images/6008122273569032540.jpg" alt="Custom Lengths">
                         <div class="slide-content">
                             <h3>Custom Lengths</h3>
                             <p>Cut to your specifications</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032541.jpg" alt="Multi-Core Cables">
+                        <img loading="lazy" src="images/6008122273569032541.jpg" alt="Multi-Core Cables">
                         <div class="slide-content">
                             <h3>Multi-Core Options</h3>
                             <p>Complex wiring made simple</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032542.jpg" alt="Cable Accessories">
+                        <img loading="lazy" src="images/6008122273569032542.jpg" alt="Cable Accessories">
                         <div class="slide-content">
                             <h3>Complete Accessories</h3>
                             <p>Everything you need</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032544.jpg" alt="Bulk Orders">
+                        <img loading="lazy" src="images/6008122273569032544.jpg" alt="Bulk Orders">
                         <div class="slide-content">
                             <h3>Bulk Orders Welcome</h3>
                             <p>Special rates for contractors</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032545.jpg" alt="Warehouse Stock">
+                        <img loading="lazy" src="images/6008122273569032545.jpg" alt="Warehouse Stock">
                         <div class="slide-content">
                             <h3>Large Stock Available</h3>
                             <p>Ready for immediate delivery</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032546.jpg" alt="Fast Delivery">
+                        <img loading="lazy" src="images/6008122273569032546.jpg" alt="Fast Delivery">
                         <div class="slide-content">
                             <h3>Fast Delivery</h3>
                             <p>Serving all of Accra and beyond</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032547.jpg" alt="Technical Support">
+                        <img loading="lazy" src="images/6008122273569032547.jpg" alt="Technical Support">
                         <div class="slide-content">
                             <h3>Technical Support</h3>
                             <p>Expert advice available</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032548.jpg" alt="Certified Products">
+                        <img loading="lazy" src="images/6008122273569032548.jpg" alt="Certified Products">
                         <div class="slide-content">
                             <h3>Certified Products</h3>
                             <p>Meeting international standards</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032549.jpg" alt="Competitive Prices">
+                        <img loading="lazy" src="images/6008122273569032549.jpg" alt="Competitive Prices">
                         <div class="slide-content">
                             <h3>Best Prices in Ghana</h3>
                             <p>Quality meets affordability</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032550.jpg" alt="Warranty">
+                        <img loading="lazy" src="images/6008122273569032550.jpg" alt="Warranty">
                         <div class="slide-content">
                             <h3>Warranty Guaranteed</h3>
                             <p>Confidence in every purchase</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032551.jpg" alt="Installation Guide">
+                        <img loading="lazy" src="images/6008122273569032551.jpg" alt="Installation Guide">
                         <div class="slide-content">
                             <h3>Installation Guidance</h3>
                             <p>We help you get it right</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032552.jpg" alt="Projects Completed">
+                        <img loading="lazy" src="images/6008122273569032552.jpg" alt="Projects Completed">
                         <div class="slide-content">
                             <h3>Trusted by Thousands</h3>
                             <p>Powering projects across Ghana</p>
                         </div>
                     </div>
                     <div class="slide">
-                        <img src="images/6008122273569032553.jpg" alt="Contact Us">
+                        <img loading="lazy" src="images/6008122273569032553.jpg" alt="Contact Us">
                         <div class="slide-content">
                             <h3>Get Your Quote Today</h3>
                             <p>Call us: 0548169704</p>
@@ -1553,7 +1607,7 @@
             </div>
             <div class="products-grid">
                 <div class="product-card">
-                    <img src="images/cab7.png" alt="Armoured Cables" class="product-image">
+                    <img loading="lazy" src="images/cab7.png" alt="Armoured Cables" class="product-image">
                     <div class="product-info">
                         <h3>Armoured Cables</h3>
                         <p>Durable and strong, our armoured cables are designed to provide extra protection against physical damage, making them ideal for both indoor and outdoor installations in high-risk environments.</p>
@@ -1567,7 +1621,7 @@
                 </div>
 
                 <div class="product-card">
-                    <img src="images/cab8.png" alt="Flexible Cables" class="product-image">
+                    <img loading="lazy" src="images/cab8.png" alt="Flexible Cables" class="product-image">
                     <div class="product-info">
                         <h3>Flexible Cables</h3>
                         <p>Engineered for flexibility, these cables are perfect for applications that require movement and bending, offering a high level of versatility in various electrical systems.</p>
@@ -1580,7 +1634,7 @@
                 </div>
 
                 <div class="product-card">
-                    <img src="images/cab9.png" alt="AutoFlex Cables" class="product-image">
+                    <img loading="lazy" src="images/cab9.png" alt="AutoFlex Cables" class="product-image">
                     <div class="product-info">
                         <h3>AutoFlex Cables</h3>
                         <p>Specially designed for automotive use, AutoFlex cables are highly flexible and resistant to wear, ensuring reliable performance in vehicles and machinery.</p>
@@ -1593,7 +1647,7 @@
                 </div>
 
                 <div class="product-card">
-                    <img src="images/cab10.png" alt="Conduit Cables" class="product-image">
+                    <img loading="lazy" src="images/cab10.png" alt="Conduit Cables" class="product-image">
                     <div class="product-info">
                         <h3>Conduit Cables</h3>
                         <p>Our conduit cables are ideal for protecting wires in outdoor or exposed installations. With their sturdy construction, they ensure the safety and longevity of your electrical systems.</p>
@@ -1606,7 +1660,7 @@
                 </div>
 
                 <div class="product-card">
-                    <img src="images/cab11.png" alt="Copper Cables" class="product-image">
+                    <img loading="lazy" src="images/cab11.png" alt="Copper Cables" class="product-image">
                     <div class="product-info">
                         <h3>Copper Cables</h3>
                         <p>Renowned for their superior conductivity, our copper cables offer reliable and efficient electrical transmission, making them perfect for a wide range of applications.</p>
@@ -1615,7 +1669,7 @@
                 </div>
 
                 <div class="product-card">
-                    <img src="images/cab12.png" alt="Aluminium Cables" class="product-image">
+                    <img loading="lazy" src="images/cab12.png" alt="Aluminium Cables" class="product-image">
                     <div class="product-info">
                         <h3>Aluminium Cables</h3>
                         <p>Lightweight yet strong, aluminium cables provide an economical alternative to copper cables without compromising on performance, making them perfect for large-scale installations.</p>
@@ -1624,7 +1678,7 @@
                 </div>
 
                 <div class="product-card">
-                    <img src="images/cab13.png" alt="PVC Cables" class="product-image">
+                    <img loading="lazy" src="images/cab13.png" alt="PVC Cables" class="product-image">
                     <div class="product-info">
                         <h3>PVC Cables</h3>
                         <p>Our PVC cables are versatile, offering excellent insulation and protection against moisture, chemicals, and abrasions, making them ideal for residential and industrial applications.</p>
@@ -1633,7 +1687,7 @@
                 </div>
 
                 <div class="product-card">
-                    <img src="images/cab14.png" alt="Service Cables" class="product-image">
+                    <img loading="lazy" src="images/cab14.png" alt="Service Cables" class="product-image">
                     <div class="product-info">
                         <h3>Service Cables</h3>
                         <p>Designed for power distribution in residential and commercial settings, our service cables provide reliable connections to electrical systems, ensuring safety and efficiency.</p>
@@ -1642,7 +1696,7 @@
                 </div>
 
                 <div class="product-card">
-                    <img src="images/cab15.png" alt="Single Core Cables" class="product-image">
+                    <img loading="lazy" src="images/cab15.png" alt="Single Core Cables" class="product-image">
                     <div class="product-info">
                         <h3>Single Core Cables</h3>
                         <p>Perfect for straightforward electrical circuits, our single core cables are easy to install and are suitable for a wide range of applications that require a simple, effective solution.</p>
@@ -1665,21 +1719,21 @@
             
             <div class="why-choose-grid">
                 <div class="why-choose-card">
-                    <img src="images/cab16.png" alt="Quality Products">
+                    <img loading="lazy" src="images/cab16.png" alt="Quality Products">
                     <div class="why-choose-card-content">
                         <h3>Premium Quality</h3>
                         <p>All our cables meet international standards and are certified for safety and performance</p>
                     </div>
                 </div>
                 <div class="why-choose-card">
-                    <img src="images/cab17.png" alt="Expert Service">
+                    <img loading="lazy" src="images/cab17.png" alt="Expert Service">
                     <div class="why-choose-card-content">
                         <h3>Expert Guidance</h3>
                         <p>Our knowledgeable team provides professional consultation for your project needs</p>
                     </div>
                 </div>
                 <div class="why-choose-card">
-                    <img src="images/cab18.png" alt="Fast Delivery">
+                    <img loading="lazy" src="images/cab18.png" alt="Fast Delivery">
                     <div class="why-choose-card-content">
                         <h3>Fast Delivery</h3>
                         <p>Quick and reliable delivery service across Accra and surrounding areas</p>
@@ -1742,10 +1796,10 @@
             </div>
             <div class="faq-wrapper">
                 <div class="faq-images">
-                    <img src="images/cab19.png" alt="Cable Quality">
-                    <img src="images/cab20.png" alt="Professional Service">
-                    <img src="images/cab21.png" alt="Wide Selection">
-                    <img src="images/cab22.png" alt="Customer Satisfaction">
+                    <img loading="lazy" src="images/cab19.png" alt="Cable Quality">
+                    <img loading="lazy" src="images/cab20.png" alt="Professional Service">
+                    <img loading="lazy" src="images/cab21.png" alt="Wide Selection">
+                    <img loading="lazy" src="images/cab22.png" alt="Customer Satisfaction">
                 </div>
                 <div class="faq-container">
                     <div class="faq-item">
@@ -1814,8 +1868,15 @@
                 <div class="section-divider"></div>
                 <p>Have questions? Need a quote? We're here to help!</p>
             </div>
-            <div class="contact-grid">
+            <div class="simple-contact-grid">
                 <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Accra Post Office<br>Accra, Ghana</p>
+                        </div>
+                    </div>
                     <div class="contact-item">
                         <i class="fas fa-clock"></i>
                         <div>
@@ -1825,19 +1886,21 @@
                             Sunday: Closed</p>
                         </div>
                     </div>
-                    <div class="social-links">
-                        <a href="https://www.facebook.com/CableMaster" target="_blank" title="Facebook">
+
+                    <div class="social-links" style="margin-top: 10px;">
+                        <a href="https://www.facebook.com/CableMaster" target="_blank" rel="noopener noreferrer" title="Facebook">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a href="https://www.instagram.com/1cable_mater" target="_blank" title="Instagram">
+                        <a href="https://www.instagram.com/1cable_mater" target="_blank" rel="noopener noreferrer" title="Instagram">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a href="https://wa.me/233548169704" target="_blank" title="WhatsApp">
+                        <a href="https://wa.me/233548169704" target="_blank" rel="noopener noreferrer" title="WhatsApp">
                             <i class="fab fa-whatsapp"></i>
                         </a>
                     </div>
                 </div>
-                <div class="contact-form">
+            </div>
+            <div style="display:none"><div class="contact-form">
                     <form onsubmit="handleSubmit(event)">
                         <div class="form-group">
                             <label for="name">Full Name *</label>
@@ -1878,27 +1941,8 @@
                 </div>
             </div>
         </div>
-<div class="contact-item">
-    <i class="fas fa-map-marker-alt"></i>
-    <div>
-        <h4>Location</h4>
-        <p>Accra Post Office<br>Accra, Ghana</p>
-    </div>
-</div>
-<div class="contact-item">
-    <i class="fas fa-phone"></i>
-    <div>
-        <h4>Phone & WhatsApp</h4>
-        <a href="tel:+233548169704">0548169704</a>
-    </div>
-</div>
-<div class="contact-item">
-    <i class="fas fa-envelope"></i>
-    <div>
-        <h4>Email</h4>
-        <a href="mailto:ebendarkwa1@gmail.com">ebendarkwa1@gmail.com</a>
-    </div>
-</div>
+
+
 
     </section>
 
@@ -1941,18 +1985,15 @@
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h3>Newsletter</h3>
-                    <p>Subscribe for updates & special offers</p>
-                    <form class="newsletter-form" onsubmit="handleNewsletter(event)">
-                        <input type="email" placeholder="Your email" required>
-                        <button type="submit">
-                            <i class="fas fa-paper-plane"></i>
-                        </button>
-                    </form>
+                    <h3>Contact Us</h3>
+                    <p>Have questions or need a quote? Reach us directly on WhatsApp.</p>
+                    <a href="https://wa.me/233548169704?text=Hi%2C%20I'm%20interested%20in%20your%20cables." target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="display:inline-flex; margin-top:10px;">
+                        <i class="fab fa-whatsapp" style="margin-right:8px;"></i> Chat on WhatsApp
+                    </a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 JayEben Cable Hub. All rights reserved. | Powering Ghana's Electrical Systems</p>
+                <p>&copy; 2026 JayEben Cable Hub. All rights reserved. | Powering Ghana's Electrical Systems</p>
             </div>
         </div>
     </footer>
@@ -1961,7 +2002,7 @@
         <i class="fab fa-whatsapp"></i>
     </a>
 
-    <script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
     // FAQ Toggle Function (Moved to Global Scope for onclick access)
     function toggleFAQ(element) {
         const faqItem = element.parentElement;
@@ -2105,15 +2146,4 @@
             justify-content: center;
             font-size: 22px;
             cursor: pointer;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-            transition: all 0.3s;
-            z-index: 998;
-        }
-        .back-to-top:hover {
-            background: var(--accent-color);
-            transform: translateY(-3px);
-        }
-    </style>
-
-</body>
-</html>
+            box-shadow: 0 5px
